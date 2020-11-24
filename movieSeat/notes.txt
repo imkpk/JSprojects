@@ -1,0 +1,14 @@
+
+to save the data in local storage
+I.How do we save our seats locally by using Local Storage?
+
+1. if u console.log(selectedSeats) it gives the nodelist of selected seats like "div.seat.selected"
+2.but we can't save this node list 
+3. we need to create basically array of index to save it in locally
+4. in order to do that we gonna do three things 
+  a. copy selected seats into array
+  b. map through that array
+  c. return the new array of indexes
+  d. we gonna use spread optr do the above
+
+5.Save it in local storage  

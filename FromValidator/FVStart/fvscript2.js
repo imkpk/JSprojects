@@ -77,9 +77,9 @@ form.addEventListener("submit", function (e) {
   checkEmail(email);
   confirmPassword(password, password2);
 
-  // if (username.value === "") {
-  //   showError(username, "username is required");
-  // } else {
-  //   showSuccess(username);
-  // }
+  if (username.value === "") {
+    showError(username, "username is required");
+  } else {
+    showSuccess(username);
+  }
 });
